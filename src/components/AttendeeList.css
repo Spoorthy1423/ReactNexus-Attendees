@@ -1,0 +1,19 @@
+
+.attendee-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .attendee-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  .attendee-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .attendee-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 500ms, transform 500ms;
+  }
